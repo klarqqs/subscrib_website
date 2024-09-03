@@ -1,0 +1,64 @@
+name: f_dayfi_web
+description: "A new Flutter project."
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  flutter_svg: ^2.0.10+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: GulfsDisplay
+      fonts:
+        - asset: assets/fonts/GulfsDisplay-Condensed.ttf
+        - asset: assets/fonts/GulfsDisplay-CondensedItalic.ttf
+        - asset: assets/fonts/GulfsDisplay-Expanded.ttf
+        - asset: assets/fonts/GulfsDisplay-ExpandedItalic.ttf
+        - asset: assets/fonts/GulfsDisplay-ExtraExpanded.ttf
+        - asset: assets/fonts/GulfsDisplay-ExtraExpandedItalic.ttf
+        - asset: assets/fonts/GulfsDisplay-Normal.ttf
+        - asset: assets/fonts/GulfsDisplay-NormalItalic.ttf
+        - asset: assets/fonts/GulfsDisplay-SemiCondensed.ttf
+        - asset: assets/fonts/GulfsDisplay-SemiCondensedItalic.ttf
+        - asset: assets/fonts/GulfsDisplay-SemiExpanded.ttf
+        - asset: assets/fonts/GulfsDisplay-SemiExpandedItalic.ttf
+        - asset: assets/fonts/GulfsDisplay-Variable.ttf
+        - asset: assets/fonts/GulfsDisplayItalic-Variable.ttf
+
+    - family: DegularDisplay
+      fonts:
+        - asset: assets/fonts/DegularDisplay-Black.otf
+        - asset: assets/fonts/DegularDisplay-BlackItalic.otf
+        - asset: assets/fonts/DegularDisplay-Bold.otf
+        - asset: assets/fonts/DegularDisplay-BoldItalic.otf
+        - asset: assets/fonts/DegularDisplay-Light.otf
+        - asset: assets/fonts/DegularDisplay-LightItalic.otf
+        - asset: assets/fonts/DegularDisplay-Medium.otf
+        - asset: assets/fonts/DegularDisplay-MediumItalic.otf
+        - asset: assets/fonts/DegularDisplay-Regular.otf
+        - asset: assets/fonts/DegularDisplay-RegularItalic.otf
+        - asset: assets/fonts/DegularDisplay-Semibold.otf
+        - asset: assets/fonts/DegularDisplay-SemiboldItalic.otf
+        - asset: assets/fonts/DegularDisplay-Thin.otf
+        - asset: assets/fonts/DegularDisplay-ThinItalic.otf
